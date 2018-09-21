@@ -1,0 +1,21 @@
+1a. a = pokemon.find do |p|
+      p["name"] == bulbasaur
+      end
+
+      a["abilities"]["ability"]["url"]
+
+1b. b = pokemon.find do |p|
+      p["base_experience"] > 40
+
+1c. c = pokemon.find_all do |p|
+      p["base_experience"] > 40
+
+1d. pokemon.map do |p|
+    p["name"]
+
+1e. e = pokemon.find do |p|
+    p["weight"] > 40
+    end
+    !!e
+
+2a. 
